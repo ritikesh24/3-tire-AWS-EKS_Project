@@ -1,0 +1,83 @@
+# ==========================
+# OS Files
+# ==========================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==========================
+# IDE
+# ==========================
+.vscode/
+.idea/
+*.iml
+
+# ==========================
+# Java / Maven
+# ==========================
+target/
+*.class
+*.log
+
+# Maven Wrapper JAR (keep wrapper scripts)
+!.mvn/wrapper/maven-wrapper.jar
+
+# ==========================
+# Spring Boot
+# ==========================
+*.pid
+*.seed
+*.out
+*.err
+
+# ==========================
+# Environment Files
+# ==========================
+.env
+.env.*
+!.env.example
+
+# ==========================
+# Terraform
+# ==========================
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+terraform.tfvars
+terraform.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.lock.hcl
+
+# ==========================
+# Kubernetes
+# ==========================
+kubeconfig
+*.kubeconfig
+
+# ==========================
+# Logs
+# ==========================
+logs/
+*.log
+
+# ==========================
+# Node / React
+# ==========================
+node_modules/
+dist/
+build/
+
+# ==========================
+# Docker
+# ==========================
+docker-data/
+
+# ==========================
+# Misc
+# ==========================
+*.swp
+*.tmp
